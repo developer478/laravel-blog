@@ -1,6 +1,21 @@
 ### Project Setup Guide
 
-- Clone the repository 
+- Clone the repository
+
+### Docker Setup 
+
+Install Docker Engine on Mac, Window and Linux, please follow this [Link][https://docs.docker.com/engine/install/]
+
+### Setup Docker Configuration
+
+- Copy & paste file .env.example in the root of docker-engine direcotry
+
+- Run the following command
+
+~ docker-compose up -d nginx mysql phpmyadmin workspace
+
+
+
 - install composer file
 - Set Directory (Storage and Bootstrap) permission 7775
 - cp en-example to .env
