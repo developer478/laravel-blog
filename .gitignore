@@ -1,0 +1,16 @@
+blog-api-service/node_modules
+blog-api-service/public/storage
+blog-api-service/storage/*.key
+blog-api-service/vendor
+blog-api-service/.env
+
+docker/
+docker-engine/.env
+
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
